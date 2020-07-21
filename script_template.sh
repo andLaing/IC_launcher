@@ -6,6 +6,7 @@
 #SBATCH --mem=4000           # Memory pool for all cores (see also --mem-per-cpu)
 
 PATH=$PATH:$HOME/bin
+export NEXTSW=/n/holystore01/LABS/guenette_lab/Lab/software/next
 . $NEXTSW/miniconda/etc/profile.d/conda.sh
 export ICTDIR=$NEXTSW/IC
 export ICDIR=$ICTDIR/invisible_cities
